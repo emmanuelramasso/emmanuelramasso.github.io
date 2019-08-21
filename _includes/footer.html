@@ -9,20 +9,13 @@
       <div class="col-sm">
         <ul class="list-unstyled">
           <li>
-            <i class="fa fa-home"></i>
+            <a href="https://emmanuelramasso.github.io"><i class="fa fa-home"></i> </a>
             {%- if site.author -%}
               {{ site.author | escape }}
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
           </li>
-          {%- if site.email -%}
-            <li>
-              <a href="mailto:{{ site.email }}">
-                {{ site.email }}
-              </a>
-            </li>
-          {%- endif -%}
         </ul>
       </div>
 
